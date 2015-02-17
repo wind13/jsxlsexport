@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Export to excel test</title>
+        <script src="jsxlsexport.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+        <h1>JsXlsExport.js</h1>
+        
+        <h3>Test page</h3>
+        <br/>
+        <a download="somedata.xls" href="#" onclick="return JsXlsExport.excel(this, 'datatable', 'Sheet Name Here');">Export to Excel</a>
+        <br/>
+
+        <table id="datatable" border="1">
+            <caption>Table Caption</caption>
+            <tr>
+                <th>Column 1</th>
+                <th>Column "cool" 2</th>
+                <th>Column 3</th>
+                <th>Column 4</th>
+            </tr>
+            <tr>
+                <td>100,111</td>
+                <td>200</td>
+                <td rowspan="2">300</td>
+                <td>áéíóú</td>
+            </tr>
+            <tr>
+                <td colspan="2">500</td>
+                <td>àèìòù</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>More text</td>
+                <td>Text with
+                new line</td>
+                <td>ç ñ ÄËÏÖÜ äëïöü</td>
+            </tr>
+        </table></div>
+
+    </body>
+</html>
