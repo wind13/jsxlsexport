@@ -1,7 +1,7 @@
 JsXlsExport.js
 ==================
 
-Based on https://github.com/jmaister/excellentexport v1.3
+Based on https://github.com/jmaister/excellentexport v1.5
 
 Make it more simple and flexible.
 
